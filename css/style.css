@@ -4,9 +4,11 @@
     box-sizing: border-box;
     background-color: bisque;
     font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    border: none;
 }
 html{
-    font-size: 100.0%;
+    font-size: 63.0%;
 }
 body{
     width: 100%;
@@ -34,4 +36,14 @@ header{
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
+    text-decoration: none;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+nav a{
+    font-size: 2rem;
+    text-decoration: none;
+    margin-left: 4rem;
+
 }
