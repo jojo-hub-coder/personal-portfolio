@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: bisque;
+    background-color: rgb(12, 11, 11);
     font-family: 'Times New Roman', Times, serif;
     outline: none;
     border: none;
@@ -14,8 +14,7 @@ body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: bisque;
-    color: brown;
+    color: white;
 }
 header{
     margin-top: 20px;
@@ -32,7 +31,7 @@ header{
 }
 .logo{
     font-size: 3rem;
-    color:  red;
+    color:  brown;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -45,5 +44,32 @@ nav a{
     font-size: 2rem;
     text-decoration: none;
     margin-left: 4rem;
-
+    font-weight: 400;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    color: bisque;
+}
+nav a:hover,
+nav a:active{
+    color: brown;
+    border-bottom: 3px solid brown;
+}
+@media(max-width:995px){
+   nav{
+      position: absolute;
+      top: 100%;
+      right: 0%;
+      width: 40px;
+      border-left: 3px solid brown;
+      border-bottom-left-radius: 2rem;
+      padding: 1rem solid;
+      background-color: black;
+      border-top: 0.1rem solid black;
+    }
+    nav.active{
+       display: block;
+    }
+    nav a{
+       
+    }
 }
