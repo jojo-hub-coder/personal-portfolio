@@ -2,12 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-decoration: none;
     background-color: bisque;
     font-family: 'Times New Roman', Times, serif;
 }
 html{
-    font-size: 63.0%;
+    font-size: 100.0%;
 }
 body{
     width: 100%;
@@ -28,8 +27,4 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-nav li{
-    text-decoration: none;
-    list-style: none;   
 }
